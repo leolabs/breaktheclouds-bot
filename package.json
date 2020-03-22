@@ -1,0 +1,21 @@
+{
+  "name": "break-the-clouds-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leo Bernard <admin@leolabs.org>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "got": "^10.6.0",
+    "lodash": "^4.17.15",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/dotenv-safe": "^8.1.0",
+    "@types/lodash": "^4.14.149"
+  }
+}
