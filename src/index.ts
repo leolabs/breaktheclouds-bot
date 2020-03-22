@@ -44,7 +44,7 @@ const main = async () => {
 };
 
 const tweet = async (article: News) => {
-  const body = `${article.title} ${article.link}`;
+  const body = `${article.title} #breaktheclouds ${article.link}`;
   console.log("Tweeting:", body);
   await got(process.env.WEBHOOK!, {
     method: "post",
